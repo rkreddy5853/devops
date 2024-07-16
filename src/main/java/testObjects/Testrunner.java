@@ -23,7 +23,6 @@ public class Testrunner extends BaseTest{
 	    
 		logger=reports.createTest("login Reports").assignAuthor("ict").assignCategory("Regression");
 		logger.pass("url Loaded sucessfully");
-		logger.info("values entered");
 		logger.pass("login sucessfull");
 		logger.info("Test sucessfull");
 		
